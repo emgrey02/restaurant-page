@@ -1,0 +1,19 @@
+.menu {
+	display: flex;
+	justify-content: center;
+	max-width: 60vw;
+	margin-inline: auto;
+}
+
+.menu-list {
+	padding: 2em 1em;
+	display: grid;
+	gap: 5rem;
+}
+
+.menu-list li p {
+	font-size: 1.2rem;
+}
+.menu-list li p:first-child {
+	font-size: 1.5rem;
+}

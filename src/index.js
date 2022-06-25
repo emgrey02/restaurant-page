@@ -1,4 +1,4 @@
-import './style.css';
+import './index.css';
 import loadPage from './page-load';
 import loadMenu from './menu';
 import loadContact from './contact';
