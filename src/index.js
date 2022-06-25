@@ -5,10 +5,12 @@ import loadContact from './contact';
 
 loadPage();
 
-let mainDiv = document.querySelector('#content');
-
 const clearPage = () => {
-	console.log('hi');
+	if (document.querySelector('div.hero')) {
+		document
+			.querySelector('div.hero')
+			.parentNode.removeChild(document.querySelector('div.hero'));
+	}
 	if (document.querySelector('div.menu')) {
 		document
 			.querySelector('div.menu')
@@ -30,6 +32,8 @@ menuButtons.forEach((button) => {
 			loadMenu();
 		} else if (e.target.textContent === 'Contact') {
 			loadContact();
+		} else {
+			loadPage();
 		}
 	});
 });

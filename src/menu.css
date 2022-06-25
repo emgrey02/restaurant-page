@@ -1,14 +1,27 @@
 .menu {
 	display: flex;
 	justify-content: center;
-	max-width: 60vw;
+	max-width: 75ch;
 	margin-inline: auto;
+	padding: 5rem 1em;
 }
 
 .menu-list {
-	padding: 2em 1em;
 	display: grid;
 	gap: 5rem;
+}
+
+.menu-list li {
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	gap: 1em;
+}
+
+.menu-list li div {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
 }
 
 .menu-list li p {
@@ -16,4 +29,6 @@
 }
 .menu-list li p:first-child {
 	font-size: 1.5rem;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
 }

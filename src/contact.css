@@ -1,0 +1,16 @@
+div.contact {
+	display: grid;
+	place-items: center;
+	margin: 8rem 1em;
+}
+
+div.contact div {
+	display: flex;
+	flex-direction: column;
+	gap: 4em;
+	text-align: center;
+}
+
+div.contact div h1 {
+	font-size: 3rem;
+}
